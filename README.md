@@ -11,6 +11,7 @@
 
 ## Introduction:
 Hi, everyone, I'm a beginner trying to do something interesting (at least for me) on GitHub.
+
 This is my first project, I took these two websites [tradingview](https://www.tradingview.com/) and [twelvedata](https://twelvedata.com/login) as references and data inputs, and tried to learn and code something (totally for learning purposes.) 
 
 ## demonstration:
