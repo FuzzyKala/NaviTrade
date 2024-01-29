@@ -17,7 +17,7 @@ This is my first project, I took these two websites [tradingview](https://www.tr
 ## demonstration:
 ### Server.js
 - I used a local Javascript file as a server-side script to fetch the data from twelvedata.com.
-- Once the "Server.js" is running, it fetches the data and saves it on my http://localhost:8000.
+- Once the "Server.js" is running, it fetches the data and saves it on my local host site.
 - This script is running on the backend side, which means the user can't see my API key.
 <img width="1280" alt="API" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/6501ca75-c1f6-45ed-9f70-b3f8c75e5765">
 
@@ -26,3 +26,12 @@ This is my first project, I took these two websites [tradingview](https://www.tr
 - The ".env" file shouldn't be public, so I put the ".env" into the gitignore.
 <img width="1163" alt="env" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/75bf2cf1-d10c-4c02-942a-56f7f14c7a36">
 
+### index.js
+- The index script is used for fetching the data that we save in the "http://127.0.0.1:8000/APIkey", in other words, I used index.js to take the data from the backend(Server.js) to the frontend (index.js) and show on HTML.
+<img width="1280" alt="local" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/c5445263-836b-4850-a1ab-26e9e234d20b">
+
+### HTML layout
+
+- Value is switching between percentage and price
+<img width="1280" alt="price" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/a2f91ced-0956-4ada-8d02-b72260b7aa15">
+<img width="1280" alt="percentage" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/e8268ab1-2f62-4f48-8d94-a6f715362d7c">
