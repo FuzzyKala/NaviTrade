@@ -18,5 +18,9 @@ This is my first project, I took these two websites [tradingview](https://www.tr
 - I used a local Javascript file as a server-side script to fetch the data from twelvedata.com.
 - Once the "Server.js" is running, it fetches the data and saves it on my http://localhost:8000.
 - This script is running on the backend side, which means the user can't see my API key.
-- The API key was kept in the ".env" file for security purposes.
 <img width="1280" alt="API" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/6501ca75-c1f6-45ed-9f70-b3f8c75e5765">
+
+- The API key was kept in the ".env" file for security purposes.
+- The ".env" file shouldn't be public, so I put the ".env" into the gitignore.
+<img width="1163" alt="env" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/75bf2cf1-d10c-4c02-942a-56f7f14c7a36">
+
