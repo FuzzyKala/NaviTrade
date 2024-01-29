@@ -27,8 +27,10 @@ This is my first project, I took these two websites [tradingview](https://www.tr
 <img width="1163" alt="env" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/75bf2cf1-d10c-4c02-942a-56f7f14c7a36">
 
 ### index.js
-- The index script is used for fetching the data that we save in the "http://127.0.0.1:8000/APIkey", in other words, I used index.js to take the data from the backend(Server.js) to the frontend (index.js) and show on HTML.
-<img width="1280" alt="local" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/c5445263-836b-4850-a1ab-26e9e234d20b">
+- The index script is used for fetching the data that we save in the "http://127.0.0.1:8000/APIkey".
+- In other words, I used index.js to take the data from the backend(Server.js) to the frontend (index.js) and show it on HTML.
+<img width="708" alt="local" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/c87166ea-6115-4899-acee-252b57a1febc">
+
 
 ### HTML layout
 
