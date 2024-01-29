@@ -33,7 +33,14 @@ This is my first project, I took these two websites [tradingview](https://www.tr
 
 
 ### HTML layout
-
-- Value is switching between percentage and price
+- Value is switching between percentage and price automatically.
 <img width="1280" alt="price" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/a2f91ced-0956-4ada-8d02-b72260b7aa15">
 <img width="1280" alt="percentage" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/e8268ab1-2f62-4f48-8d94-a6f715362d7c">
+
+- pop up window for searching shares (not finished yet.)
+<img width="1280" alt="popup" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/0efab1ce-194c-4c7c-836b-dc81d4353a97">
+
+### CSS design
+- some hover animation
+<img width="1280" alt="Snipaste_2024-01-29_22-04-02" src="https://github.com/FuzzyKala/Product_1_Stock_monitoring/assets/40585857/2ace0ca1-7820-4fa3-b695-35a4f159ee07">
+
