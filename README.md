@@ -1,4 +1,4 @@
-# This is an hobby project for stock monitoring.
+# This is a hobby project for stock monitoring.
 
 <p>
   <!-- iOS -->
