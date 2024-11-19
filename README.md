@@ -1,4 +1,4 @@
-# A stock price monitoring website, it's still developing........
+# This is an hobby project for stock monitoring.
 
 <p>
   <!-- iOS -->
