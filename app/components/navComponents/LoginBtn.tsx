@@ -13,8 +13,11 @@ export default function LoginBtn() {
         className="bg-transparent text-2xl font-semibold text-slate-100"
         onClick={toggleLoginForm}
       >
-        <div className="flex">
-          <label htmlFor="" className="me-2 hidden md:flex">
+        <div className="flex items-center">
+          <label
+            htmlFor=""
+            className="me-2 hidden md:flex items-center justify-center"
+          >
             Login
           </label>
           <IoLogInOutline size={38} />
