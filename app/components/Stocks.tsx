@@ -17,8 +17,6 @@ export default function Stocks() {
     const fetchStocks = async () => {
       try {
         const response = await axios("/api/stock");
-
-        console.log(response.data);
         setStocks(response.data);
       } catch (error: unknown) {
         if (error instanceof Error) {
