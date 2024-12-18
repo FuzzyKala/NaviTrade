@@ -13,7 +13,6 @@ export async function GET() {
       )}&interval=1min&apikey=${APIkey}`
     );
     const stocksArray = Object.values(response.data);
-    console.log("Transformed Response:", stocksArray);
     return NextResponse.json(stocksArray);
   } catch (error) {
     console.error("Error fetching data from TwelveData:", error);
