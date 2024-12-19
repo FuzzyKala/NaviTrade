@@ -1,17 +1,12 @@
 import React from "react";
 import Link from "next/link";
 
-interface MenuProps {
-  toggleMenu: () => void;
-  isMenuOpen: boolean;
-}
-
-export default function Menu({ toggleMenu, isMenuOpen }: MenuProps) {
+export default function Menu() {
   return (
     <>
-      <button className="md:hidden text-2xl p-2" onClick={toggleMenu}>
+      {/* <button className="md:hidden text-2xl p-2" onClick={toggleMenu}>
         ☰
-      </button>
+      </button> */}
       <ul
         className={`hidden md:flex flex-col md:flex-row items-center justify-between px-4 md:px-8 font-semibold text-2xl md:space-x-10`}
       >

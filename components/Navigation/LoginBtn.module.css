@@ -1,0 +1,30 @@
+.dropdown {
+  @apply absolute -right-5 top-16 w-44 bg-gray-300 rounded-md text-slate-900 invisible transform -translate-y-5 transition-transform duration-200 ease-linear z-30;
+}
+.dropdownOpen {
+  @apply visible transform-none;
+}
+.dropdownItem {
+  @apply flex items-center p-2 hover:bg-gray-400 hover:rounded-md cursor-pointer;
+}
+.dropdownIcon {
+  @apply ml-1 size-9;
+}
+.dropdownText {
+  @apply px-5 py-2 text-xl font-medium;
+}
+
+@media (max-width: 376px) {
+  .dropdown {
+    @apply -right-4 top-12 w-32;
+  }
+  .dropdownItem {
+    @apply pe-1 py-0;
+  }
+  .dropdownIcon {
+    @apply size-6;
+  }
+  .dropdownText {
+    @apply px-3 py-1 text-lg;
+  }
+}

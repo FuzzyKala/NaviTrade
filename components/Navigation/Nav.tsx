@@ -1,19 +1,15 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import LoginBtn from "./LoginBtn";
 import Logo from "./Logo";
 import Menu from "./Menu";
+import styles from "./Nav.module.css";
 
 export default function Nav() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-  };
   return (
-    <nav className="p-5 flex w-full justify-evenly items-center">
+    <nav className={styles.navBar}>
       <Logo />
-      <Menu toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
+      <Menu />
       <LoginBtn />
     </nav>
   );
