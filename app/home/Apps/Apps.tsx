@@ -3,13 +3,13 @@ import Image from "next/image";
 
 export default function Apps() {
   return (
-    <div className="pe-20 pt-10">
+    <div className="flex flex-col md:flex-row">
       <Image
         src="/apps.png"
         alt="apps"
         width={350}
         height={200}
-        className="me-3 w-auto h-auto"
+        className="me-3 md:w-auto md:h-auto w-40 h-40"
       />
     </div>
   );

@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import LoginBtn from "./navComponents/LoginBtn";
-import Logo from "./navComponents/Logo";
-import Menu from "./navComponents/Menu";
+import LoginBtn from "./LoginBtn";
+import Logo from "./Logo";
+import Menu from "./Menu";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
